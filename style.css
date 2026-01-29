@@ -7,10 +7,26 @@
 body {
     height: 100vh;
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
     background-color: #BD0F06;
-    padding-top: 40px;
+    padding-top: 20px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  margin-top: 35px;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: center;
+  align-items: center;
+  gap: 25px;
 }
 
 h1 {
@@ -18,9 +34,26 @@ h1 {
     font-size: 3.5rem;
     font-style: normal;
     text-align: center;
-    color: #7D2723;
+    color: #582731;
     animation: bob 4s ease-in-out infinite;
 }
+
+a {
+  font-family: "Smooch Sans", sans-serif;
+  font-size: 1.25rem;
+  font-style: normal;
+  text-align: center;
+  color: #582731;
+}
+
+p {
+  font-family: "Smooch Sans", sans-serif;
+  font-size: 1.5rem;
+  font-style: normal;
+  text-align: center;
+  color: #642723;
+}
+
 
 @keyframes bob {
     0% {
@@ -33,3 +66,27 @@ h1 {
       transform: translateY(0);
     }
   }
+
+#player {
+  display: none;
+}
+
+#music-toggle {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #4d0500;
+  color: #a3311a;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+
+  z-index: 1000;
+}
+
+#music-toggle:hover {
+  opacity: 0.85;
+}
