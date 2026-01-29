@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #BD0F06;
+    padding-top: 40px;
+}
+
+h1 {
+    font-family: 'Megrim', system-ui;
+    font-size: 3.5rem;
+    font-style: normal;
+    text-align: center;
+    color: #7D2723;
+    animation: bob 4s ease-in-out infinite;
+}
+
+@keyframes bob {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-8px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
