@@ -15,7 +15,7 @@
     <body>
         <div class="navigation">
             <span style="text-decoration: underline;" data-page="home">Home</span>
-            <span style="text-decoration: underline;" data-page="albums">Albums</span>
+            <span style="text-decoration: underline;" data-page="albums">Discography</span>
             <span style="text-decoration: underline;" data-page="updates">Updates</span>
             <span style="text-decoration: underline;" data-page="about">About Us</span>
         </div>
@@ -26,7 +26,18 @@
 
         <div id="player"></div>
 
-        <button id="music-toggle">▶ Play Music</button>
+        <button id="music-toggle">▶</button>
+
+        <div id="music-controls">
+            <select id="song-select">
+              <option value="uWOGzjWsCW8">I Really Want to Love this World</option>
+              <option value="OMNn1Mh84E4">Ship of Theseus</option>
+              <option value="eGEQkzgLBaM">Growing Towards the Sun</option>
+              <option value="2wpLtQb5gFw">Ashes in the Fireworks</option>
+              <option value="-7IQ5pPMYu4">Never Meet Again</option>
+            </select>
+            <button id="play-pause">▶ Play</button>
+        </div>
 
         <script src="script.js"></script>
         <script src="https://www.youtube.com/iframe_api"></script>

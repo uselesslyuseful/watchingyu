@@ -8,14 +8,16 @@ const pages = {
                 <div class="about-text">
                     <h2>About Hua Chenyu</h2>
                     <p>Hua Chenyu <span lang="zh">(华晨宇)</span> is a C-pop singer known for powerful vocals and captivating live performances. Born on 7th Feb, 1990, he debuted in 2013 through the Super Boy <span lang="zh">(快乐男声)</span> variety show. Since then, he has won many awards for his music and concerts, and remains one of the top singers in China. He is currently touring, with Mars Concerts coming up in Shenzhen.</p>
-                    <p>Some of Hua Chenyu's awards/records include:</p>
+                    <p>Having been interested in songwriting since he was a kid, Hua Chenyu majored in music at the Wuhan Conservatory of Music. He plays multiple instruments, ranging from the flute to the piano, and has written music in a wide variety of genres. Through all of his music, his individuality and uniqueness shines, his style utterly irreplaceble and beloved by many.</p>
+                    <p>Hua Chenyu's concerts - Mars concerts - are well-known for their beauty. His concerts have never failed to bring something new to the table, from 3-D visual effects to drones and fireworks. In 2024, Hua Chenyu held a Sunrise concert that started at 3am. During this concert, him and more than 130k fans watched the sunrise together.</p>
+                    <p>Some of Hua Chenyu's awards include:</p>
                     <ul>
                         <li>2016 MAMA Best Chinese Artist</li>
                         <li>Champion of 2020 Singer competition, Runner-up of 2018 Singer competition</li>
                         <li>2025 Most Album Sales (China)</li>
                         <li>2021、2023、2024 Platinum MUSE Design Awards (Mars Concerts)</li>
                     </ul>
-                    <p>In 2024, on May 4th, Hua Chenyu held the Sunrise concert that started at 3am. During this concert, him and more than 130k fans watched the sunrise together.
+                    <p>Here are all of Hua Chenyu's official socials: <a href="https://open.spotify.com/artist/7v7bP8NfcMYh4sDADEAy6Z">Spotify</a>, <a href="https://www.youtube.com/@HuaChenYu_huachenyu0207">Youtube</a>, <a href="https://weibo.com/u/1624923463">Weibo</a>, <a href="https://space.bilibili.com/477569206">Bilibili (Studio)</a>, <a href="https://space.bilibili.com/490346911">Bilibili (Concerts)</a>
                 </div>
                 <img src="sunrise-image.jpeg" alt="HomeImg">
             </div>
@@ -36,7 +38,7 @@ const pages = {
   
     albums: `
         <div class="header">
-            <h1>Albums & Singles</h1>
+            <h1>Discography</h1>
             <h2>Albums</h2>
             <p>Click an album to explore songs and lyrics.</p>
         </div>
@@ -95,7 +97,7 @@ const pages = {
             </div>
             <div class="display-card" data-track="JackdawYouth" data-type="song">
                 <img src="songs/JackdawYouth.jpg" alt="Song 6">
-                <h3>JackdawYouth <span lang="zh">(寒鸦少年)</span></h3>
+                <h3>Jackdaw Youth <span lang="zh">(寒鸦少年)</span></h3>
             </div>
             <div class="display-card" data-track="FlyingConductor" data-type="song">
                 <img src="songs/FlyingConductor.jpeg" alt="Song 7">
@@ -121,6 +123,31 @@ const pages = {
             <h1>Updates</h1>
             <p>Latest performances, releases, and news.</p>
         </div>
+        <div class="updates">
+            <div class="update">
+                <img src="updates/ShenZhen.jpeg" alt="ShenZhenConcert">
+                <div class="update-text">
+                    <h3>Shen Zhen Closing Concert</h3>
+                    <p>On Feb 6-8th, Hua Chenyu will be hosting three concerts at Shenzhen Universiade Sports Centre <span lang="zh">(深圳大运中心)</span>, as the closers for his most rceent tour. These concerts will also mark the final time the current four-sided stage design will be used. Hua has implied that a new stage design - and a possible new stage model entirely - will be used in future concerts. Bilibili fan videos will be linked once the concerts have taken place.</p>
+                </div>
+            </div>
+            <div class="update">
+                <img src="updates/ShengMingYuanYang.webp" alt="SoundTrek">
+                <div class="update-text">
+                    <h3>Sound Trek 2025 <span lang="zh">(声名远扬2025)</span></h3>
+                    <p>Hua Chenyu participated on this variety show as a teacher. The show achieved considerable popularity due to the interactions between the three main mentors, Na Ying, Duan Xiumei, and Hua Chenyu. The program was streamed every Sunday for 12 episodes, and ended on Jan 25. Replays can be found in <a href="https://www.youtube.com/watch?v=vEnznPJqRwI&list=PLUM8x224JrX9axJTlmFd2jNbfEoKEjer9">this playlist<a>.</p>
+                </div>
+            </div>
+            <div class="update">
+                <img src="updates/HunanTV.jpg" alt="KuaNian">
+                <div class="update-text">
+                    <h3>Hunan TV 2026 New Year's Concert <span lang="zh">(湖南卫视跨年演唱会2026)</span></h3>
+                    <p>Hua Chenyu was the closing performance on Hunan TV's 2026 New Year's Concert, singing a solo medley of "Great Sage Equal to Heaven", "The King and the Pauper", as well as "Growing Towards the Sun". He also led the idol group Teens in Times in a parade, as well as the six Sound Trek 2025 finalists in singing his signature single, "I Don't Care". Fans embraced the new year together with him at the centre of the performers. An interaction between him and Jackson Wang went viral, when Hua, a day after the event, reported that Jackson shaking his arm at the event had fixed an old issue with his shoulder. </p>
+                </div>
+            </div>
+
+        </div>
+
     `
   };
 
@@ -255,6 +282,7 @@ const albums = {
             <p></p>
         </div>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/OqyNCTg2ShI?si=0oKSAxbqN8p0xY1g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <p>The theme song of a vacation-style variety show released in 2017, Search is meant to convey a feeling of freedom, with friends next to you. Through many layers of instrumentals, the song mimics the sounds of nature.</p>
         <p><br></p>
         <p><span lang="zh">枕边没有风浪怎么我们会跌荡摇晃<br>
             伸手不见月光怎么繁星能闪耀光芒<br>
@@ -304,13 +332,15 @@ const albums = {
             <h1>Cancer <span lang="zh">(癌)</span></h1>
         </div>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/RSUKQHqSTR0?si=C05hCkTzEMlfViQf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <p>Cancer is a song without lyrics. Hua Chenyu wrote it as an exploration of cancer cells - not patients, when his mother was afflicted with cancer. While this song has received considerable amounts of hate, remember that it was written to be uncomfortable.</p>
     `,
     EqualtoHeaven: `
         <div class="header">
             <h1>Equal to Heaven <span lang="zh">(齐天)</span></h1>
             <p></p>
         </div>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/TNKwrOxI1tU?si=bMgmMivZnV8h4TzU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/HqrrMdwcVgI?si=O1klrRFo-iDnva6j" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <p>Equal to Heaven is a song that pays homage to Sun Wukong, a famous character from Journey of the West who was titled "Great Sage Equal to Heaven". As the theme of the 2014 movie "Story of Wukong" <span lang="zh">悟空传</span>, the song switches rapidly between rap and emotional singing, with strong traditional Chinese-style throughout. The song focuses on the tragedy of Sun Wukong's story, without forgetting his arrogance and pride.</p>
         <p><br></p>
         <p><span lang="zh">日和月在重演<br>
             谁号令齐天齐天断恩怨<br>
@@ -368,6 +398,7 @@ const albums = {
             <p></p>
         </div>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/0OsDqo5phEI?si=mc6RCMvDnnVxho9b" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <p>With a combination of rap and ballad-style singing, this song talks of many of Hua Chenyu's personal experiences. In it, he demands philosophical questions, mentions childhood memories, and explores the pain of growing up in a broken family. Like much of his music, the base color of this song is loneliness.</p>
         <p><br></p>
         <p><span lang="zh">我嚼着最贵的晚餐<br>
             可惜我无所谓应对这账单<br>
@@ -442,6 +473,432 @@ const albums = {
             <br>
         </p>
     `,
+    IQ: `
+        <div class="header">
+            <h1>250 IQ <span lang="zh">(智商250)</span></h1>
+            <p></p>
+        </div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/sxySu3isvig?si=kE07cE4fM0jy5TsC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <p>This is the theme song of Luban the 7th in the MOBA game Honour of Kings. With multiple digital effects, and a rap style that hasn't shown up in any other song, Hua Chenyu's IQ 250 perfectly embodies Luban 7th's character.</p>
+        <p><br></p>
+        <p><span lang="zh">看世界太平庸我宅到没朋友<br>
+            直来直去不造作深藏一生追求<br>
+            原谅我重要时候短路爱出糗<br>
+            只怪疯狂不需要理由<br>
+            我想我最大的能力<br>
+            有种天赋叫科技<br>
+            震慑对手的威力<br>
+            连我自己都不信<br>
+            赌我钟爱的发明<br>
+            攻克地心的引力<br>
+            下一季 整理表情<br>
+            深吸口气 <span lang="en">a body</span><br>
+            谁在扛着舆论的压力<br>
+            走的瞬息又随意<br>
+            别急<br>
+            绝不喊停将是唯一的理性<br>
+            短腿蹦跶没敌意<br>
+            料想趁你不注意<br>
+            就霸气 绝地反击<br>
+            你没脾气 <span lang="en">a body</span><br>
+            看世界太平庸我宅到没朋友<br>
+            直来直去不造作深藏一生追求<br>
+            原谅我重要时候短路爱出糗<br>
+            只怪疯狂不需要理由<br>
+            我不懂特别的关系<br>
+            肾上腺素会暴击<br>
+            我自卖自夸的神经<br>
+            竟也学不会谈情<br>
+            烧脑驰骋大环境 读心术别想侵袭<br>
+            别客气 加句前提 杀伤无力 <span lang="en">a body</span><br>
+            我这造型拍也拍不出帅气<br>
+            夸也夸不好听<br>
+            谁说古怪神经搭错专为破解谜底<br>
+            我冒着可爱的傻气<br>
+            当你降低防备力<br>
+            不小心 取之有理 赢得彻底 <span lang="en">a body</span><br>
+            看世界太平庸我宅到没朋友<br>
+            直来直去不造作深藏一生追求<br>
+            原谅我重要时候短路爱出糗<br>
+            只怪疯狂不需要理由<br>
+            智商随意收割全场 骄傲又嚣张<br>
+            越是不见光的死宅<br>
+            越有突然爆表冲上云霄的蹊径<br>
+            我没想多拼命只因为热爱此行<br>
+            大可不当娱乐精 我的较劲不是病<br>
+            没关系 抬起眼皮 瞪大眼睛 <span lang="en">a body</span><br>
+            或许人类复杂的情绪感染<br>
+            太多的铁杆迷失主义<br>
+            可我就坚持最简单的<br>
+            才是有力的回击<br>
+            淘气地取悦我自己<br>
+            尴尬地愣在人群里<br>
+            超劲的游戏有个蠢萌的你 <span lang="en">a body</span><br>
+            看世界太平庸我宅到没朋友<br>
+            直来直去不造作深藏一生追求<br>
+            原谅我重要时候短路爱出糗<br>
+            只怪疯狂不需要理由<br>
+            头脑风暴侵占我所有<br>
+            </span><br>
+            <br>
+        </p>
+    `,
+    JackdawYouth: `
+        <div class="header">
+            <h1>Jackdaw Youth <span lang="zh">(寒鸦少年)</span></h1>
+            <p></p>
+        </div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/A5PpHkstEgE?si=hpgWKk9Ez7d27jwC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <p>As the song Hua Chenyu used to win the first episode of Singer 2020, Jackdaw Boy is also the theme song of Battle Through the Heavens. The inspiration for this song came from a character in the novel "Kafka By the Shore". With dramatic, hard rock and mocking lyrics, the core theme of this song is fighting against destiny, depicting a full arc from falling to rebirth.</p>
+        <p><br></p>
+        <p><span lang="zh">像一出默剧<br>
+            视线有雾气<br>
+            试探的证据<br>
+            暴晒很彻底<br>
+            月光正坐下在祷告<br>
+            乌鸦张开嘴巴 嘴巴 嘴巴<br>
+            我收拾好骄傲<br>
+            原谅脆弱的玩笑<br>
+            走吧 走吧 别随便歌颂<br>
+            我拉开了双拳<br>
+            瞄准沸腾的时间<br>
+            走吧 走吧 别大声反驳<br>
+            在等我巡游<br>
+            变暗的字轴 终场的困兽<br>
+            当决斗问候<br>
+            焦黑的烟斗 乱线的图谋<br>
+            向暴戾迎击<br>
+            收敛起稚气练习<br>
+            再反转<br>
+            意料和预谋<br>
+            扮生旦净丑<br>
+            谁恶意搀扶<br>
+            放暗箭带路<br>
+            屈辱当药服<br>
+            谢谢你让我都看透<br>
+            别当我是傻瓜 傻瓜 傻瓜<br>
+            我收拾好骄傲<br>
+            原谅脆弱的玩笑<br>
+            走吧 走吧 别随便歌颂<br>
+            我拉开了双拳<br>
+            瞄准沸腾的时间<br>
+            走吧 走吧 别大声反驳<br>
+            在等我巡游<br>
+            变暗的字轴 终场的困兽<br>
+            当决斗问候<br>
+            焦黑的烟斗 乱线的图谋<br>
+            向暴戾迎击<br>
+            收敛起稚气练习<br>
+            再反转<br>
+            意料和预谋<br>
+            世界太长时间太短<br>
+            有什么值得庆祝<br>
+            来不及回顾忘记有归途<br>
+            最难是把自己驯服<br>
+            想哭时不如停住<br>
+            倒流的泪会变得坚固<br>
+            去守护<br>
+            我收拾好骄傲<br>
+            原谅脆弱的玩笑<br>
+            走吧 走吧 别随便歌颂<br>
+            我拉开了双拳<br>
+            瞄准沸腾的时间<br>
+            走吧 走吧 别大声反驳<br>
+            在等我巡游<br>
+            变暗的字轴 终场的困兽<br>
+            当决斗问候<br>
+            焦黑的烟斗 乱线的图谋<br>
+            向暴戾迎击<br>
+            反转后重写默剧<br>
+            让真相<br>
+            痛快去演奏<br>
+            </span><br>
+            <br>
+        </p>
+    `,
+    FlyingConductor: `
+        <div class="header">
+            <h1>Flying Conductor <span lang="zh">(飞行指挥家)</span></h1>
+            <p></p>
+        </div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/jXZi79QlvPA?si=0AwaCyWU5Q2kQ3B6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <p><br></p>
+        <p><span lang="zh">冒险的派对<br>
+            全世界就位<br>
+            注意全神戒备<br>
+            用热血去追<br>
+            突破了极限<br>
+            看子弹向后退<br>
+            冲破 心的宇宙<br>
+            让热爱失控<br>
+            冲锋 <span lang="en">oh</span><br>
+            去追逐<br>
+            那个超越想象的痛快<br>
+            决赛圈再拥抱新期待<br>
+            去开启新的未来<br>
+            想象为翼 起飞<br>
+            用信号枪 指挥<br>
+            突破平庸 包围<br>
+            淘汰热血 多愚蠢 多狼狈<br>
+            用极速的 无畏<br>
+            摆脱地心 支配<br>
+            向着未来起飞<br>
+            精彩变成绝对<br>
+            <span lang="en">No one gonna make me down</span><br>
+            不存在反派<br>
+            也没有障碍<br>
+            只有自我淘汰<br>
+            笑异想天开<br>
+            我偏用热爱<br>
+            翻盘赢个精彩<br>
+            我决定要无限的痛快<br>
+            决赛圈再拥抱新期待<br>
+            去开启新的未来<br>
+            想象为翼 起飞<br>
+            用信号枪 指挥<br>
+            突破平庸 包围<br>
+            淘汰热血 多愚蠢 多狼狈<br>
+            用极速的 无畏<br>
+            摆脱地心 支配<br>
+            向着未来起飞<br>
+            精彩变成绝对<br>
+            <span lang="en">No one gonna make me down</span><br>
+            气流急速后退 朝着目标起飞<br>
+            随时做好准备 品尝胜利滋味<br>
+            梦境 启动 平行时空<br>
+            打开无限的可能<br>
+            身体失重 像漂浮太空<br>
+            挣脱了平庸<br>
+            每个举动 每个毛孔<br>
+            都像在蠢蠢欲动<br>
+            <span lang="en">Are you ready to win now</span><br>
+            想象为翼 起飞<br>
+            做好战斗 准备<br>
+            乍放太阳 光辉<br>
+            不管黑夜 多强大 多深邃<br>
+            用极速的 无畏<br>
+            摆脱地心 支配<br>
+            向着未来起飞<br>
+            精彩变成绝对</span><br>
+            Right now<br>
+            No one gonna make me down<br>
+            Wu oh<br>
+            Born to win born to win yeah<br>
+            Wu oh<br>
+            Keep flying Keep fighting<br>
+            Wu oh <span lang="zh">不撤退 不后悔<br>
+            想象为翼 想象为翼<br>
+            向未来起飞</span> yeah<br>
+            No one gonna make me down<br>
+            <br>
+        </p>
+    `,
+    IconicScene: `
+        <div class="header">
+            <h1>Iconic Scene <span lang="zh">(名场面)</span></h1>
+            <p></p>
+        </div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/qt4fHdzKNus?si=5chxBcS5Ji6OzPFk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <p><br></p>
+        <p>Fight to win or die
+            <span lang="zh">在风中降落<br>
+            全方位搜索<br>
+            天地多辽阔<br>
+            有梦更执着<br>
+            信号闪烁目光似火<br>
+            挣脱了枷锁<br>
+            冷眼算什么<br>
+            <span lang="en">Fight to win or die<br>
+            Fire higher</span><br>
+            犹豫就成盒<br>
+            够敢才够格<br>
+            <span lang="en">Fire higher</span><br>
+            名场面集合<br>
+            圈定这一刻<br>
+            <span lang="en">Fight to win or die</span><br>
+            置身于漩涡<br>
+            更坚定自我<br>
+            击退这封锁<br>
+            更胜券在握<br>
+            空投预兆着陆信号<br>
+            并肩的配合<br>
+            踏平所有阻隔<br>
+            <span lang="en">Fight to win or die<br>
+            Fire higher</span><br>
+            犹豫就成盒<br>
+            够敢才够格<br>
+            <span lang="en">Fire higher</span><br>
+            名场面集合<br>
+            圈定这一刻<br>
+            <span lang="en">Fight to win or die</span><br>
+            是为决赛圈见的承诺<br>
+            心照不宣百战不折<br>
+            承受皇冠的负荷<br>
+            <span lang="en">Fight to win or die<br>
+            Fire higher</span><br>
+            犹豫就成盒<br>
+            够敢才够格<br>
+            <span lang="en">Fire higher</span><br>
+            名场面集合<br>
+            圈定这一刻</span><br>
+            Fight to win or die<br>
+            <br>
+        </p>
+    `,
+    NoFearofHeat: `
+        <div class="header">
+            <h1>No Fear of Heat<span lang="zh">(肆无惧燥)</span></h1>
+            <p></p>
+        </div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/6O6qqshKZck?si=_iOYbhgra1JaDdFd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <p><br></p>
+        <p>
+            <span lang="zh">再黑的墨镜它都不能挡住你的眼睛<br>
+            精準的锁定 锁定我在24小时里<br>
+            开心或怪脾气 无底线的宠溺<br>
+            你那滚烫的热情 都快要让我窒息<br>
+            我 我想我此刻正需要<br>
+            迅速恢复心跳<br>
+            需要 需要 让自己冷静一秒<br>
+            滚烫的气流 随它热切嘶吼<br>
+            我在我的宇宙 任谁喋喋不休</span><br>
+            I'm the one, I'm the one<br>
+            I'm the one, I'm the one<br>
+            <span lang="zh">键盘上双手<br>
+            正在忘我弹奏一首 击破耳膜狂躁节奏<br>
+            它好像热衷解构重组拼凑盖栋高楼<br>
+            等我像个小丑 去顶层上出糗<br>
+            快找个出口 早懒得还手<br>
+            我 我想我此刻正需要<br>
+            迅速恢复心跳<br>
+            需要 需要 让自己冷静一秒<br>
+            滚烫的气流 管它灼热狠手<br>
+            我在我的宇宙 任谁喋喋不休</span><br>
+            I'm the one, I'm the one<br>
+            I'm the one, I'm the one<br>
+            I'm the one, I'm the one<br>
+            I'm the one, I'm the one, hey<br>
+            I'm the one, I'm the one<br>
+            I'm the one, I'm the one, hey<br>
+            <span lang="zh">就 潇灑的去松手<br>
+            早 懒得去执拗<br>
+            找到 出口 好好酷爽的 <span lang="en">solo</span><br>
+            滚烫的气流 放任它遊走<br>
+            就在各自宇宙 任谁喋喋不休</span><br>
+            I'm the one, I'm the one<br>
+            I'm the one, I'm the one<br>
+            I'm the one, I'm the one<br>
+            I'm the one, I'm the one, hey<br>
+            I'm the one, I'm the one<br>
+            I'm the one, I'm the one<br>
+            <br>
+        </p>
+    `,
+    GrowingTowardstheSunSunrise: `
+        <div class="header">
+            <h1>Growing Towards the Sun - Sunrise Version <span lang="zh">(向阳而生-日出版)</span></h1>
+            <p></p>
+        </div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/w_Qqcw71ZKc?si=CtwZA61FYqoPnsiN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <p><br></p>
+        <p>
+            <span lang="zh">生 予绚烂<br>
+            生 予希望<br>
+            生 予一切无常<br>
+            相 信羁绊<br>
+            相 信微光<br>
+            相 信一切如常<br>
+            白昼会变长 照亮心脏<br>
+            让万物生长 如是我们 向阳<br>
+            沉醉过 泥土的芬芳啊<br>
+            用最柔嫩青苔 换取一抹阳光<br>
+            然後自然老去吧 别再依依惜别了<br>
+            可我仍爱著那道 晚霞<br>
+            我看过 他青涩的藤啊<br>
+            匆匆长在人海 被风吹著流浪<br>
+            更多阴晴不定的 还是阳光灿烂呢<br>
+            只是他总是笑而 不答<br>
+            就让温暖 驱散迷雾<br>
+            给尘世 一场风暴<br>
+            看远方 万众期冀 跃起地<br>
+            那一颗 太阳<br>
+            喔～<br>
+            喔～<br>
+            多闪耀<br>
+            我看到 久违的晴朗啊<br>
+            又在黎明醒来 万亿爱中生长<br>
+            长出轻盈的云朵 长出柔美的山色<br>
+            长出世界本来的 喧哗<br>
+            寻一颗 未萌的渺小啊<br>
+            随著青翠未来 升入辽阔云霄<br>
+            那些黑暗笼罩的<br>
+            终将向阳而生呢<br>
+            也许生命早给我 解答<br>
+            就让温暖 将我救赎<br>
+            给心灵 一场风暴<br>
+            当我们 拼尽全力 追逐过<br>
+            那一颗 太阳<br>
+            喔～<br>
+            喔～<br>
+            喔～<br>
+            喔～<br>
+            我们曾 默默承受<br>
+            破碎的山 呜咽的黑<br>
+            就在这 长夜之後<br>
+            凝结一座 新宇宙<br>
+            那太阳 闪耀依旧<br>
+            照亮胚胎 照亮墓碑<br>
+            随无数 生命漂流 向阳而生<br>
+            我们曾 默默承受<br>
+            破碎的山 呜咽的黑<br>
+            就在这长夜之後<br>
+            凝结一座 新宇宙<br>
+            那太阳 闪耀依旧<br>
+            照亮胚胎 照亮墓碑<br>
+            随无数 生命漂流 向阳而生<br>
+            我们 彼此簇拥 歌唱（希望）<br>
+            你看 荒芜之地 那颗（太阳）<br>
+            无论 世界种下 绝望 （希望）<br>
+            别哭 你永远是 我的（太阳）<br>
+            我们 彼此簇拥 歌唱（希望）<br>
+            你看 荒芜之地 那颗（太阳）<br>
+            无论 世界种下 绝望 （希望）<br>
+            我看到 太阳 喔<br>
+            喔～<br>
+            喔～<br>
+            我们曾 默默承受<br>
+            破碎的山 呜咽的黑<br>
+            就在这 长夜之後<br>
+            凝结一座 新宇宙<br>
+            那太阳 闪耀依旧<br>
+            照亮胚胎 照亮墓碑<br>
+            随无数 生命漂流 向阳而生<br>
+            我们曾 默默承受<br>
+            破碎的山 呜咽的黑<br>
+            就在这长夜之後 凝结一座 新宇宙<br>
+            那太阳 闪耀依旧<br>
+            照亮胚胎 照亮墓碑<br>
+            随无数 生命漂流 向阳而生<br>
+            我们 彼此簇拥 歌唱（希望）<br>
+            你看 荒芜之地 那颗（太阳）<br>
+            无论 世界种下 绝望 （希望）<br>
+            别哭 你永远是 我的（太阳）<br>
+            我们 彼此簇拥 歌唱（希望）<br>
+            你看 荒芜之地 那颗（太阳）<br>
+            无论 世界种下 绝望 （希望）<br>
+            别哭 你永远是 我的（太阳）<br>
+            我们 彼此簇拥 歌唱（希望）<br>
+            你看 荒芜之地 那颗（太阳）<br>
+            无论 世界种下 绝望 （希望）<br>
+            我看到 太阳 喔<br>
+            喔～<br>
+            喔～<br>
+            喔～<br>
+            喔～<br>
+            终闪耀</span><br>
+            <br>
+        </p>
+    `,
   }
 
 const content = document.getElementById("content");
@@ -497,47 +954,50 @@ content.addEventListener("click", (e) => {
   
 
 
-let player;
-let isPlaying = false;
-let playerReady = false;
-
-function onYouTubeIframeAPIReady() {
-    player = new YT.Player('player', {
-        height: '0',
-        width: '0',
-        videoId: 'eSvnAyHFoyo',
-        playerVars: {
-          autoplay: 0,
-          controls: 0,
-          loop: 1,
-          playlist: 'eSvnAyHFoyo'
-        },
-        events: {
-          onReady: () => {
-            playerReady = true;
-          }
-        }
-      });
-    }
-
-
-document.addEventListener("DOMContentLoaded", () => {
-  const button = document.getElementById("music-toggle");
-
-  button.addEventListener("click", () => {
-    console.log("button clicked, ready =", playerReady);
+  let player;
+  let playerReady = false;
+  let isPlaying = false;
+  let currentVideo = "uWOGzjWsCW8";
   
+  function onYouTubeIframeAPIReady() {
+    player = new YT.Player("player", {
+      height: "0",
+      width: "0",
+      videoId: currentVideo,
+      playerVars: {
+        autoplay: 0,
+        controls: 0
+      },
+      events: {
+        onReady: () => {
+          playerReady = true;
+          console.log("YouTube player ready");
+        }
+      }
+    });
+  }
+
+const songSelect = document.getElementById("song-select");
+const playPauseBtn = document.getElementById("play-pause");
+
+songSelect.addEventListener("change", () => {
+  if (!playerReady) return;
+
+  currentVideo = songSelect.value;
+  player.loadVideoById(currentVideo);
+});
+
+playPauseBtn.addEventListener("click", () => {
     if (!playerReady) return;
   
-    if (!isPlaying) {
-      player.playVideo();
-      button.textContent = "⏸ Pause Music";
-    } else {
+    if (isPlaying) {
       player.pauseVideo();
-      button.textContent = "▶ Play Music";
+      playPauseBtn.textContent = "▶ Play";
+    } else {
+      player.playVideo();
+      playPauseBtn.textContent = "⏸ Pause";
     }
   
     isPlaying = !isPlaying;
   });
   
-});
